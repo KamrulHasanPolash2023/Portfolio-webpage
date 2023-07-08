@@ -1,2 +1,75 @@
 body{font-family: 'Open Sans', sans-serif;
 }
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 230px;
+}
+.commonbutton{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    border:0px;
+    border-radius: 6px;
+    background: #f77d25;
+    padding: 12px 35px;
+}
+
+.styleP{
+    color:#f77d25;
+}
+
+.polash{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.headersection{
+    background-color: #faeee5;
+
+}
+
+
+.bannersection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 230px;
+    background-image:url('header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.gretting{ 
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color:rgb(29, 27, 27);
+    margin: 0px;
+}
+
+.myname{
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
