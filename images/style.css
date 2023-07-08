@@ -8,7 +8,7 @@ nav > ul {
 }
 nav li{
     list-style: none;
-    margin-right: 50px;
+    margin-right: 100px;
 
 }
 nav a{
@@ -72,4 +72,27 @@ nav{
     font-weight: 700;
     line-height: normal;
     margin: 0px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-container{
+    margin-top: 130px;
+    text-align: center;
+    padding: 140px 160px;
+    background-color:#faeee5;
+}
+
+.aboutinfo{
+    display:flex;
+    justify-content:space-around;
+}
+
+.aboutcommonclass{
+    color:rgb(76, 71, 71);
+    font-size: 15px;
+    margin-bottom: 0px;
 }
